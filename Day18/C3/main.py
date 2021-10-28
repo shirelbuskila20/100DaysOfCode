@@ -2,6 +2,8 @@ import turtle as t
 import random
 
 tim = t.Turtle()
+tim.width(5)
+tim.speed("fastest")
 t.colormode(255)
 def random_color():
     r = random.randint(0, 255)
